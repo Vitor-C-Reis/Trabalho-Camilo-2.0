@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trabalho Vitor Campos</title>
+	<style>
+		body {
+			/* background-image: url(Imagem.jpg); */
+			width: 100%;
+    height: 100%;
+    background-image:url(https://twimg0-a.akamaihd.net/a/1350072692/t1/img/front_page/jp-mountain@2x.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+		}
+
+		.tab {
+			overflow: hidden;
+			border: 1px solid #ccc;
+			background-color: #ffffff;
+		}
+
+		.tab button {
+			background-color: inherit;
+			float: left;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			padding: 14px 16px;
+			transition: 0.3s;
+		}
+
+		.tab button:hover {
+			background-color: #ddd;
+		}
+
+		.tab button.active {
+			background-color: #ccc;
+		}
+
+		.tabcontent { font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  color: #323232;
+  width: 650px;
+  height: auto;
+  margin: 10% auto;
+  padding: 10px;
+  background-color: #c5c5c5;
+  border: 1px solid #f5f5f5;
+  border-radius: 15px;
+  -webkit-box-shadow:  0px 0px 10px 0px #f5f5f5;
+  box-shadow:  0px 0px 10px 0px #f5f5f5;
+}
+
+		.back-button {
+			margin-top: 10px;
+			cursor: pointer;
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+		}
+
+		.back-button:hover {
+			background-color: #3e8e41;
+	
+		}
+
+		@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+
+			/* Backgrund das abas */
+
+		#tab1 {
+			width: 100%;
+    height: 100%;
+    background-image:url(https://twimg0-a.akamaihd.net/a/1350072692/t1/img/front_page/jp-mountain@2x.jpg);
+    background-size: cover;
+ 
+		}
+		#tab2 {
+			width: 100%;
+    height: 100%;
+    background-image:url(https://twimg0-a.akamaihd.net/a/1350072692/t1/img/front_page/jp-mountain@2x.jpg);
+    background-size: cover;
+
+		}
+		#tab3 {
+			width: 100%;
+    height: 100%;
+    background-image:url(https://twimg0-a.akamaihd.net/a/1350072692/t1/img/front_page/jp-mountain@2x.jpg);
+    background-size: cover;
+
+		}
+		#tab4 {
+			width: 100%;
+    height: 100%;
+    background-image:url(https://twimg0-a.akamaihd.net/a/1350072692/t1/img/front_page/jp-mountain@2x.jpg);
+    background-size: cover;
+
+		}
+		#tab5 {
+			width: 100%;
+    height: 100%;
+    background-image:url(https://twimg0-a.akamaihd.net/a/1350072692/t1/img/front_page/jp-mountain@2x.jpg);
+    background-size: cover;
+
+		}
+		/* Cor do titulo e textos (h2= Titulo e p= texto)*/
+		h2 {
+ 		color:whitesmoke ;
+		}
+		p{
+		color:aqua;	
+
+		}
+	</style>
+</head>
+<body onload="openTab(event, 'home')">
+
+	<div class="tab">
+		<button class="tablinks" onclick="openTab(event, 'home')">Tela Inicial</button>
+		<button class="tablinks" onclick="openTab(event, 'tab1')">Git</button>
+		<button class="tablinks" onclick="openTab(event, 'tab2')">GitFlow</button>
+		<button class="tablinks" onclick="openTab(event, 'tab3')">Docker</button>
+		<button class="tablinks" onclick="openTab(event, 'tab4')">CI/CD</button>
+		<button class="tablinks" onclick="openTab(event, 'tab5')">Computação em Nuvem</button>
+	</div>
+
+	<div id="home" class="tabcontent">
+</div>
+
+<div id="tab1" class="tabcontent">
+	<h2>Fullscreen Background</h2>
+
+This will apply the resized image to the background of every page that referances the stylesheet. if for example you want it to only be on one page kinda like twitter has it only on their landing page and not all the others. you can easly accomplish this by changing the css rule to:
+ <br>
+ <br>
+"body.landing" instead of just "body" ("landing" can be anything you want)
+<br>
+  <br>
+then on the desired page you body tag should look like this:
+<br><br>
+	<button class="back-button" onclick="openTab(event, 'home')">Voltar à Tela Inicial</button>
+		
+</div>
+
+<div id="tab2" class="tabcontent">
+	<h2>Fullscreen Background</h2>
+
+This will apply the resized image to the background of every page that referances the stylesheet. if for example you want it to only be on one page kinda like twitter has it only on their landing page and not all the others. you can easly accomplish this by changing the css rule to:
+ <br>
+ <br>
+"body.landing" instead of just "body" ("landing" can be anything you want)
+<br>
+  <br>
+then on the desired page you body tag should look like this:
+<br><br>
+	<button class="back-button" onclick="openTab(event, 'home')">Voltar à Tela Inicial</button>
+</div>
+
+<div id="tab3" class="tabcontent">
+	<h2>Fullscreen Background</h2>
+
+This will apply the resized image to the background of every page that referances the stylesheet. if for example you want it to only be on one page kinda like twitter has it only on their landing page and not all the others. you can easly accomplish this by changing the css rule to:
+ <br>
+ <br>
+"body.landing" instead of just "body" ("landing" can be anything you want)
+<br>
+  <br>
+then on the desired page you body tag should look like this:
+<br><br>
+	<button class="back-button" onclick="openTab(event, 'home')">Voltar à Tela Inicial</button>
+</div>
+
+<div id="tab4" class="tabcontent">
+	<h2>Fullscreen Background</h2>
+
+This will apply the resized image to the background of every page that referances the stylesheet. if for example you want it to only be on one page kinda like twitter has it only on their landing page and not all the others. you can easly accomplish this by changing the css rule to:
+ <br>
+ <br>
+"body.landing" instead of just "body" ("landing" can be anything you want)
+<br>
+  <br>
+then on the desired page you body tag should look like this:
+<br><br>
+	<button class="back-button" onclick="openTab(event, 'home')">Voltar à Tela Inicial</button>
+</div>
+
+<div id="tab5" class="tabcontent">
+	<h2>Fullscreen Background</h2>
+
+This will apply the resized image to the background of every page that referances the stylesheet. if for example you want it to only be on one page kinda like twitter has it only on their landing page and not all the others. you can easly accomplish this by changing the css rule to:
+ <br>
+ <br>
+"body.landing" instead of just "body" ("landing" can be anything you want)
+<br>
+  <br>
+then on the desired page you body tag should look like this:
+<br><br>
+	<button class="back-button" onclick="openTab(event, 'home')">Voltar à Tela Inicial</button>
+</div>
+
+<script>
+	function openTab(evt, tabName) {
+		// Declarar variáveis
+		var i, tabcontent, tablinks;
+
+		// Esconder todo o conteúdo da aba
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		}
+
+		// Desativar todos os botões de abas
+		tablinks = document.getElementsByClassName("tablinks");
+		for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		}
+
+		// Mostrar a aba atual e ativar o botão correspondente
+		document.getElementById(tabName).style.display = "block";
+		evt.currentTarget.className += " active";
+	}
+</script>
+
